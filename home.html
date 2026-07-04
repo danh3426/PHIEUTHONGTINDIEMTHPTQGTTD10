@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+    </style>
+    <title>THÔNG TIN ĐIỂM THI THPTQG</title>
+  </head>
+  <body>
+    <form id="form" class="form">
+      <div class="introduction">
+        <img class="logo" src="images/icon.png" />
+        <div class="title">
+          <p class="paragraph-title">THÔNG TIN ĐIỂM THI THPTQG</p>
+        </div>
+      </div>
+      <div class="fullname">
+        <p class="fullname_label">Họ và tên:</p>
+        <input
+          id="fullname"
+          class="input"
+          type="text"
+          maxlength="50"
+          placeholder="Nhập họ và tên"
+        />
+      </div>
+      <div class="compulsory_subject">
+        <div class="math_input">
+          <span class="math_label">Toán:</span>
+          <input
+            id="math"
+            class="input"
+            type="number"
+            min="0"
+            max="10"
+            placeholder="Nhập điểm"
+          />
+        </div>
+        <div class="lite_input">
+          <p class="lite_label">Ngữ Văn:</p>
+          <input
+            id="lite"
+            class="input"
+            type="number"
+            min="0"
+            max="10"
+            placeholder="Nhập điểm"
+          />
+        </div>
+      </div>
+      <div class="optional_subject1">
+        <p class="optional_subject1-title">Môn tự chọn 1:</p>
+        <div class="subject1">
+          <select id="optional_subject1-select">
+            <option value="">Chọn môn</option>
+            <option value="Physic">Vật Lý</option>
+            <option value="Chemistry">Hóa học</option>
+            <option value="Biology">Sinh học</option>
+            <option value="History">Lịch sử</option>
+            <option value="Geography">Địa lý</option>
+            <option value="Economic">GDKTPL</option>
+            <option value="Technology">Tin học</option>
+            <optgroup label="Ngoại ngữ">
+              <option value="English">Tiếng Anh</option>
+              <option value="France">Tiếng Pháp</option>
+              <option value="Russia">Tiếng Nga</option>
+              <option value="China">Tiếng Trung Quốc</option>
+              <option value="Germany">Tiếng Đức</option>
+              <option value="Japan">Tiếng Nhật</option>
+              <option value="Korean">Tiếng Hàn</option>
+            </optgroup>
+            <option value="Industry">Công nghệ công nghiệp</option>
+            <option value="Agriculture">Công nghệ nông nghiệp</option>
+          </select>
+          <input
+            id="subject1"
+            class="input"
+            type="number"
+            min="0"
+            max="10"
+            placeholder="Môn tự chọn 1"
+          />
+        </div>
+      </div>
+      <div class="optional_subject2">
+        <p class="optional_subject2-title">Môn tự chọn 2:</p>
+        <div class="subject2">
+          <select id="optional_subject1-select">
+            <option value="">Chọn môn</option>
+            <option value="Physic">Vật Lý</option>
+            <option value="Chemistry">Hóa học</option>
+            <option value="Biology">Sinh học</option>
+            <option value="History">Lịch sử</option>
+            <option value="Geography">Địa lý</option>
+            <option value="Economic">GDKTPL</option>
+            <option value="Technology">Tin học</option>
+            <optgroup label="Ngoại ngữ">
+              <option value="English">Tiếng Anh</option>
+              <option value="France">Tiếng Pháp</option>
+              <option value="Russia">Tiếng Nga</option>
+              <option value="China">Tiếng Trung Quốc</option>
+              <option value="Germany">Tiếng Đức</option>
+              <option value="Japan">Tiếng Nhật</option>
+              <option value="Korean">Tiếng Hàn</option>
+            </optgroup>
+            <option value="Industry">Công nghệ công nghiệp</option>
+            <option value="Agriculture">Công nghệ nông nghiệp</option>
+          </select>
+          <input
+            id="subject2"
+            class="input"
+            type="number"
+            min="0"
+            max="10"
+            placeholder="Môn tự chọn 2"
+          />
+        </div>
+      </div>
+      <button id="send" class="send-button">Gửi</button>
+    </form>
+  </body>
+</html>
