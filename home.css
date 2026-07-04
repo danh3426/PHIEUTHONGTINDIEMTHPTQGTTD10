@@ -195,3 +195,9 @@ select {
 .send-button:active {
     transform: scale(0.98);
 }
+
+@media (min-width: 320px) {
+    .paragraph-title {
+        font-size: 1.5rem;
+    }
+}
