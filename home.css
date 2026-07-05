@@ -124,7 +124,7 @@ select {
 .fullname:hover .fullname_label {
     color: hsl(0, 0%, 100%);
     text-shadow: 0px 0px 5px hsl(243, 90%, 60%), 0px 0px 10px hsl(243, 100%, 50%);
-    transform: translateY(-6px) scale(1.06);
+    transform: translateY(-4px) scale(1.06);
 }
 
 .fullname .input:hover {
@@ -137,7 +137,7 @@ select {
 .lite_input:hover .lite_label {
     color: hsl(0, 0%, 100%);
     text-shadow: 0px 0px 5px hsl(300, 90%, 65%), 0px 0px 10px hsl(300, 100%, 55%);
-    transform: translateY(-6px) scale(1.06);
+    transform: translateY(-4px) scale(1.06);
 }
 
 .compulsory_subject .input:hover {
@@ -149,7 +149,7 @@ select {
 .optional_subject1:hover>.optional_subject1-title {
     color: hsl(0, 0%, 100%);
     text-shadow: 0px 0px 5px hsl(342, 90%, 65%), 0px 0px 10px hsl(342, 100%, 55%);
-    transform: translateY(-6px) scale(1.05);
+    transform: translateY(-4px) scale(1.05);
 }
 
 .subject1 select:hover,
@@ -162,7 +162,7 @@ select {
 .optional_subject2:hover .optional_subject2-title {
     color: hsl(0, 0%, 100%);
     text-shadow: 0px 0px 5px hsl(342, 90%, 65%), 0px 0px 10px hsl(342, 100%, 55%);
-    transform: translateY(-6px) scale(1.05);
+    transform: translateY(-4px) scale(1.05);
 }
 
 .subject2 select:hover,
