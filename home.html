@@ -25,28 +25,33 @@
           maxlength="50"
           placeholder="Nhập họ và tên"
         />
+        <p class="name_alert" id="name_alert">
+          Họ tên không được chưa ký tự đặc biệt
+        </p>
       </div>
       <div class="compulsory_subject">
         <div class="math_input">
           <span class="math_label">Toán:</span>
           <input
             id="math"
-            class="input"
-            type="number"
+            class="input input_mark"
+            type="text"
             min="0"
             max="10"
             placeholder="Nhập điểm"
+            inputmode="numeric"
           />
         </div>
         <div class="lite_input">
           <p class="lite_label">Ngữ Văn:</p>
           <input
             id="lite"
-            class="input"
-            type="number"
+            class="input input_mark"
+            type="text"
             min="0"
             max="10"
             placeholder="Nhập điểm"
+            inputmode="numeric"
           />
         </div>
       </div>
@@ -76,11 +81,12 @@
           </select>
           <input
             id="subject1"
-            class="input"
-            type="number"
+            class="input input_mark"
+            type="text"
             min="0"
             max="10"
             placeholder="Môn tự chọn 1"
+            inputmode="numeric"
           />
         </div>
       </div>
@@ -110,16 +116,23 @@
           </select>
           <input
             id="subject2"
-            class="input"
-            type="number"
+            class="input input_mark"
+            type="text"
             min="0"
             max="10"
             placeholder="Môn tự chọn 2"
+            inputmode="numeric"
           />
         </div>
       </div>
       <button id="send" class="send-button">Gửi</button>
     </form>
+    <div class="annoucement">
+      <h3 class="annoucement_title">Câu trả lời của em đã được gửi đi</h3>
+      <p class="annoucement_paragraph">
+        Các em đã hoàn thành kỳ thi quan trọng nhất trong cuộc đời học sinh
+      </p>
+    </div>
     <script src="home.js" defer></script>
   </body>
 </html>
